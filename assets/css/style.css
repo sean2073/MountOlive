@@ -1,14 +1,33 @@
-body{
+#footer{
     background-color: #ffeeba;
-    color: #17a2b8;
+    background-color: #2196f3; /* I love this blue */
+    color: #ffffff;
+    border-top: 3px solid #222;
+    margin-left: 10px;
+    /*color: #17a2b8;
     color: #ffffff;
     color: #007bff;
+   */ 
+
+    
 }
-#footer{
-    margin-left: 50px;
+#logo {
+    margin-left: 40px;
+    float: right;
+}
+#social-media{
+    margin-left: 160px;
+    margin-top: 20px;
 }
 div#foot-nav{
     /*margin-left: 580px;*/
     margin-top: 40px;
+    margin-left: 10px;
     
 }
+hr{
+    color: #ffeeba;
+}
+.table-links, th, td {
+    border: 0px solid black;
+  }
