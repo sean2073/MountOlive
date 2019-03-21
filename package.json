@@ -1,0 +1,19 @@
+{
+  "name": "mountolive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sean2073/MountOlive.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sean2073/MountOlive/issues"
+  },
+  "homepage": "https://github.com/sean2073/MountOlive#readme"
+}
