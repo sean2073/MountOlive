@@ -22,5 +22,8 @@
     "express-favicon": "^2.0.1",
     "favicon": "0.0.2",
     "hbs": "^4.0.3"
+  },
+  "engines": {
+    "node": "4.2.x"
   }
 }
