@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="handlebars-v4.0.10.js"></script>
+</head>
+<body>
+      <!-- use the header partial -->
+    {{> header}}
+   
+    <!-- use the footer partial -->
+   {{> footer}}
+   <script type="text/javascript">
+  // Handlebars.registerPartial("messagePartial","Employee : {{name}}, Age : {{age}}" );
+ //  hbs.registerPartials(__dirname + '/views/partials');
+   Handlebars.registerPartials(__dirname + '/views/partials');
+   </script>
+</body>
+</html>

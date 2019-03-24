@@ -3,6 +3,7 @@
     background-color: #2196f3; /* I love this blue */
     color: #ffffff;
     border-top: 3px solid #222;
+    border-bottom: 64px solid #0f67b3;
     margin-left: 10px;
     /*color: #17a2b8;
     color: #ffffff;
@@ -15,9 +16,16 @@
     margin-left: 40px;
     float: right;
 }
+#head-logo{
+    float: right;
+    margin-left: 60px;
+}
 #social-media{
     margin-left: 160px;
     margin-top: 20px;
+}
+header{
+    margin-left: 10px;
 }
 div#foot-nav{
     /*margin-left: 580px;*/
@@ -31,3 +39,8 @@ hr{
 .table-links, th, td {
     border: 0px solid black;
   }
+.nav-link{
+    font-size: 16px;
+    margin-top: 70px;
+    float: left;
+}
