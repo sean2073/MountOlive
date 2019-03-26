@@ -26,6 +26,7 @@
 }
 header{
     margin-left: 10px;
+    height: 230px;
 }
 div#foot-nav{
     /*margin-left: 580px;*/
@@ -43,4 +44,47 @@ hr{
     font-size: 16px;
     margin-top: 70px;
     float: left;
+}
+#home-main-section{
+    clear: both;
+    margin-left: 10px;
+    
+    
+    
+    
+
+}
+
+#home-p1{
+    background-image: url("./images/church3.png");
+    background-repeat: no-repeat;
+    
+    height: 600px;
+    top: 70px;
+    
+    
+    
+}
+#home-text{
+    clear: both;
+    height: 200px;
+    margin-left: 350px;
+    padding-top:  200px;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-style: unset;
+/* margin-top: 80px;*/
+}
+#home-p2{
+    color: #222;
+    
+    
+    top: 200%;
+}
+.display-3{
+    text-align: center;
+}
+.info{
+    text-align: center;
 }

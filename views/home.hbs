@@ -1,42 +1,73 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Mount Olive Baptist Church</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script
-      src="https://code.jquery.com/jquery-1.12.3.min.js"
-      integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="
-      crossorigin="anonymous"
-    ></script>
 
-    <!--<script src="assets/javascript/script.js"></script>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Mount Olive Baptist Church</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-1.12.3.min.js"
+    integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+
+  <!--<script src="assets/javascript/script.js"></script>
   -->
-    <link rel="stylesheet" href="/css/reset.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"
-      rel="stylesheet"
-    />
-    <link
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="/css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://bootswatch.com/4/materia/bootstrap.min.css"
-    />
+  <link rel="stylesheet" href="/css/reset.css" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="https://bootswatch.com/4/materia/bootstrap.min.css" />
 
 </head>
+
 <body>
-      <!-- use the header partial -->
-    {{> header}}
-   
-    <!-- use the footer partial -->
-   {{> footer}}
+  <!-- use the header partial -->
+  {{> header}}
+  <div id="home-main-section">
+    <div id="home-p1">
+      <!--<img src="/images/church.png" alt="" srcset=""> -->
+      <div id="home-text">
+        <p>
+          Live the life <br>God wants for you.
+        </p>
+        <button type="button" class="btn btn-secondary">Test</button>
+      </div>
+
+    </div>
+
+    <div id="home-p2">
+      <div class="jumbotron">
+        <h1 class="display-3">Join Us</h1><br>
+        <p class="lead info">SUNDAY: <br>
+          Adult Bible Study - 9:45 AM<br>
+          Children's Bible Study: 9:45 AM<br>
+          Morning Worship & Service: 10:55 AM<br><br></p>
+        <hr class="my-4">
+
+        <p class="lead info">WEDNESDAY:<br>
+          Adult Bible Study: 6:00 PM<br>
+          Children's Church: 6:00 PM
+
+        </p>
+      </div>
+    </div>
+
+    <div class="card text-white bg-success mb-3" style="max-width: 20rem;">
+      <div class="card-header">Header</div>
+      <div class="card-body">
+        <h4 class="card-title">Success card title</h4>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+    </div>
+
+
+  </div>
+  
+  <!-- use the footer partial -->
+  {{> footer}}
+
 
 </body>
+
 </html>
