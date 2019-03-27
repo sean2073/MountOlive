@@ -5,6 +5,8 @@
     border-top: 3px solid #222;
     border-bottom: 64px solid #0f67b3;
     margin-left: 10px;
+    position: absolute;
+    top:3850px;
     /*color: #17a2b8;
     color: #ffffff;
     color: #007bff;
@@ -41,14 +43,14 @@ hr{
     border: 0px solid black;
   }
 .nav-link{
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 70px;
     float: left;
 }
 #home-main-section{
-    clear: both;
+   clear: both;
     margin-left: 10px;
-    margin-top: 20px;
+    margin-top: 25px;
     
     
     
@@ -59,10 +61,10 @@ hr{
 #home-p1{
     background-image: url("./images/church3.png");
     background-repeat: no-repeat;
-    
+    margin-top: 20px;
     height: 600px;
     top: 70px;
-    
+    width: 1341.73px;
     
     
 }
@@ -75,11 +77,11 @@ hr{
     color: #ffffff;
     font-weight: bolder;
     font-style: unset;
-/* margin-top: 80px;*/
+/* margin-top: 80px;color: #0f67b3;*/
 }
 #home-p2{
     color: #222;
-    
+    height: 499px;
     
     top: 200%;
 }
@@ -89,3 +91,18 @@ hr{
 .info{
     text-align: center;
 }
+#home-p3{
+    top: 300%;
+    border-top: 1px solid #222;
+    height: 764px;
+    
+    
+}
+ #home-p2, #home-p3
+{ 
+    width: 1341.73px; 
+    position:absolute;
+}
+/*
+ 
+*/

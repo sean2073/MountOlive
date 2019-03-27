@@ -19,6 +19,7 @@ hbs.registerPartials(__dirname + '/views/partials');
 app.use(express.static(__dirname + '/assets'));
 app.use('/css', express.static(__dirname + '/assets'));
 app.use('/images', express.static(__dirname + '/assets'));
+app.use('/javascript', express.static(__dirname + '/assets'));
 //app.use(express.static(__dirname + '/assets/images'));
 
 app.use((req, res, next) => {
