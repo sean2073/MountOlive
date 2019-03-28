@@ -48,7 +48,7 @@ hr{
     float: left;
 }
 #home-main-section{
-   clear: both;
+    clear: both; 
     margin-left: 10px;
     margin-top: 25px;
     
@@ -61,10 +61,11 @@ hr{
 #home-p1{
     background-image: url("./images/church3.png");
     background-repeat: no-repeat;
-    margin-top: 20px;
+   /* margin-top: 200px; */
     height: 600px;
-    top: 70px;
+    position: absolute;
     width: 1341.73px;
+    
     
     
 }

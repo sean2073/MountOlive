@@ -40,7 +40,7 @@
             setPosition();
         };
         })(window);
-        
+        $('#home-p1').stopAtTop();
         $('#home-p2').stopAtTop();
         $('#home-p3').stopAtTop();
        /* $('#home-p3').stopAtTop();*/
