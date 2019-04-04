@@ -56,9 +56,9 @@ app.get("/", function(req, res) {
     welcomeMessage: 'Welcome!  You Rock!!'
   });
 });
-app.get("/about", function(req, res) {
+app.get("/about.html", function(req, res) {
     
- res.render('about.hbs', {
+ res.render("about.hbs", {
      pageTitle: 'About Page',
      //currentYear: new Date().getFullYear()
  });

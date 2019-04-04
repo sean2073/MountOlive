@@ -1,3 +1,4 @@
+
 #footer{
     background-color: #ffeeba;
     background-color: #2196f3; /* I love this blue */
@@ -7,7 +8,7 @@
     margin-left: 10px;
     position: absolute;
     top:3850px;
-    /*color: #17a2b8;
+    /* color: #17a2b8;
     color: #ffffff;
     color: #007bff;
    */ 
@@ -20,15 +21,18 @@
 }
 #head-logo{
     float: right;
-    margin-left: 60px;
+    margin-left: 20px;
 }
 #social-media{
     margin-left: 160px;
     margin-top: 20px;
 }
 header{
-    margin-left: 10px;
-    height: 230px;
+    margin-left: 60px;
+    margin-right: 80px;
+   /* height: 230px;
+    width: 900px; */
+    
 }
 div#foot-nav{
     /*margin-left: 580px;*/
@@ -42,32 +46,58 @@ hr{
 .table-links, th, td {
     border: 0px solid black;
   }
+#navigation{
+    float: left;
+    
+
+}
 .nav-link{
     font-size: 20px;
     margin-top: 70px;
     float: left;
 }
+.display-3, .display-4,.info{
+    text-align: center;
+}
+
 #home-main-section{
     clear: both; 
     margin-left: 10px;
+    margin-right: 70px;
     margin-top: 25px;
-    
-    
-    
-    
-
+   
 }
 
 #home-p1{
+    
     background-image: url("./images/church3.png");
     background-repeat: no-repeat;
-   /* margin-top: 200px; */
     height: 600px;
-    position: absolute;
-    width: 1341.73px;
+   /*  padding-bottom: 50%;
+   margin-top: 200px; 
+    
+    height: 600px;*/
+    
+}
+
+#home-p2{
+    color: #222;
+    height: 499px;
+    
+    top: 200%;
+}
+
+#home-p3{
+    top: 300%;
+    border-top: 1px solid #222;
+    height: 764px;
     
     
-    
+}
+ #home-p1, #home-p2, #home-p3
+{ 
+    width: 1341.73px; 
+    position:absolute;
 }
 #home-text{
     clear: both;
@@ -79,30 +109,6 @@ hr{
     font-weight: bolder;
     font-style: unset;
 /* margin-top: 80px;color: #0f67b3;*/
-}
-#home-p2{
-    color: #222;
-    height: 499px;
-    
-    top: 200%;
-}
-.display-3{
-    text-align: center;
-}
-.info{
-    text-align: center;
-}
-#home-p3{
-    top: 300%;
-    border-top: 1px solid #222;
-    height: 764px;
-    
-    
-}
- #home-p2, #home-p3
-{ 
-    width: 1341.73px; 
-    position:absolute;
 }
 /*
  
